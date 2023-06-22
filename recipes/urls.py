@@ -5,8 +5,8 @@ from django.urls import path
 # HTTP REQUEST
 
 urlpatterns = [
-        path('home/',home),
+        path('',home),
         path('sobre/', about),
         path('contato/',contato),
-        path('/',home),
+        
 ]

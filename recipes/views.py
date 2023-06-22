@@ -6,7 +6,7 @@ def home(request):
     return render(request, template_name='Home.html', status='201')  
 
 def about(request):
-    return HttpResponse('<h1>Sobre</h1>')
+    return render(request, template_name='sobre.html')
 
 def contato(request):
-    return HttpResponse('<h1>Contato</h1>')
+    return render(request, template_name='contato.html')
