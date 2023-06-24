@@ -11,10 +11,31 @@
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css" integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css" integrity="sha512-yDUXOUWwbHH4ggxueDnC5vJv4tmfySpVdIcN1LksGZi8W8EVZv4uKGrQc0pVf66zS7LDhFJM7Zdeow1sw1/8Jw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <title>Recipes</title>
+<style>
+   *{
+      padding: 0;
+      margin:0;
+      box-sizing: border-box;
+   }
+   html {
+      font-size:62.5%;
+     
+   }
+   body{
+      font-size:1.6rem;
+   }
+</style>
+
 </head>
 <body>
-
-   <H1><i class="fa-solid fa-utensils"></i> Eu estou na homepage</H1>
-
+   <header class='main-header-container'>
+      <div class="main-header container">
+          <H1>
+            <a href="/">
+               <i class="fa-solid fa-utensils"></i></H1> 
+               <span>Recipes {{ name }} </span>
+            </a>
+     </div>
+   </header>
 </body>
 </html>
